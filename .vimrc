@@ -19,3 +19,11 @@ Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 filetype plugin indent on
+
+nmap <silent> <C-\> :NERDTreeToggle<CR>
+nmap <silent> <C-o> o<Esc>
+nmap <silent> <C-O> O<Esc>
+imap ii <Esc>
+
+colorscheme jellybeans
+
