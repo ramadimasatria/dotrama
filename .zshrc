@@ -13,6 +13,7 @@ alias bi="bundle install"
 alias hyperconfig="atom ~/.hyper.js"
 alias a="atom ."
 alias v="vim ."
+alias cn="ping 8.8.8.8"
 
 export NVM_DIR="/Users/ramadimasatria/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
