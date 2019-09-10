@@ -1,6 +1,6 @@
-export DOTRAMA="~/.config/dotrama"
-
 sudo -v
+
+DOTRAMA=~/.config/dotrama
 
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
