@@ -1,3 +1,6 @@
 [user]
 	name = Rama Dimasatria
 	email = ramadimasatria@gmail.com
+[core]
+	excludesfile = /Users/ramadimasatria/.gitignore_global
+	editor = nvim

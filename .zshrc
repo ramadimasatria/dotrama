@@ -5,14 +5,12 @@ plugins=(git npm osx)
 
 source $ZSH/oh-my-zsh.sh
 
-alias zshconfig="atom ~/.zshrc"
+alias zshconfig="nvim ~/.zshrc"
+alias vimconfig="nvim ~/.vimrc"
 alias ohmyzsh="atom ~/.oh-my-zsh"
 alias work="cd ~/Documents/projects"
-alias fs="foreman start"
-alias bi="bundle install"
-alias hyperconfig="atom ~/.hyper.js"
 alias a="atom ."
-alias v="vim ."
+alias v="nvim ."
 alias cn="ping 8.8.8.8"
 
 export NVM_DIR="/Users/ramadimasatria/.nvm"

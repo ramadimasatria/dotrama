@@ -1,0 +1,10 @@
+brew "zsh"
+brew "neovim"
+brew "wget"
+brew "yarn"
+brew "nvm"
+brew "go"
+cask "spotify"
+cask "atom"
+cask "iterm2"
+
