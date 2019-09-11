@@ -1,5 +1,5 @@
 # Dotrama
-My dotfiles
+> My dotfiles
 
 ## Usage
 ```
