@@ -4,7 +4,7 @@
 ## Usage
 ```
 $ git clone git@github.com:ramadimasatria/dotrama.git ~/.config/dotrama
-$ cd ~/.config
+$ cd ~/.config/dotrama
 $ ./install.sh
 ```
 
