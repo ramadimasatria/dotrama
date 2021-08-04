@@ -7,4 +7,4 @@ brew "go"
 cask "spotify"
 cask "atom"
 cask "iterm2"
-
+cask "visual-studio-code"
