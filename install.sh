@@ -1,10 +1,11 @@
 sudo -v
 
+USER=$(whoami)
 DOTRAMA=~/.config/dotrama
 
 # Homebrew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/ramadimasatria/.zprofile
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/$USER/.zprofile
 eval "$(/opt/homebrew/bin/brew shellenv)"
 brew bundle --file=$DOTRAMA/Brewfile
 
