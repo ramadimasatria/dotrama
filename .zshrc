@@ -1,4 +1,4 @@
-export ZSH=/Users/ramadimasatria/.oh-my-zsh
+export ZSH="/Users/$(whoami)/.oh-my-zsh"
 export WORKDIR="~/Documents/code"
 
 ZSH_THEME="arrow"
@@ -15,7 +15,7 @@ alias work="cd $WORKDIR"
 alias a="code ."
 alias cn="ping 8.8.8.8"
 
-export NVM_DIR="/Users/ramadimasatria/.nvm"
+export NVM_DIR="/Users/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 
 export GOPATH="$HOME/go/"
