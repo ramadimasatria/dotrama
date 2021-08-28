@@ -6,7 +6,7 @@ plugins=(git npm osx)
 
 source $ZSH/oh-my-zsh.sh
 
-alias v="nvim ."
+alias v="nvim $1"
 alias zshconfig="v ~/.zshrc"
 alias updatezsh="source ~/.zshrc"
 alias vimconfig="v ~/.vimrc"
