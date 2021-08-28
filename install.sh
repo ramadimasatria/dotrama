@@ -14,6 +14,9 @@ cp $DOTRAMA/.gitconfig ~/.gitconfig
 sudo -s 'echo /usr/local/bin/zsh >> /etc/shells' && chsh -s /usr/local/bin/zsh
 ln -sf $DOTRAMA/.zshrc ~/.zshrc
 
+# Ohmyzsh
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 # Vim
 git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 ln -sf $DOTRAMA/.vimrc ~/.vimrc
