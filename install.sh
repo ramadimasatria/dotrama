@@ -30,3 +30,6 @@ npm install -g http-server
 go get golang.org/x/tools/cmd/godoc
 go get github.com/golang/lint/golint
 
+# Create work directory
+mkdir ~/Documents/code
+

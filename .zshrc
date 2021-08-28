@@ -1,16 +1,18 @@
 export ZSH=/Users/ramadimasatria/.oh-my-zsh
+export WORKDIR="~/Documents/code"
 
 ZSH_THEME="arrow"
 plugins=(git npm osx)
 
 source $ZSH/oh-my-zsh.sh
 
-alias zshconfig="nvim ~/.zshrc"
-alias vimconfig="nvim ~/.vimrc"
-alias ohmyzsh="atom ~/.oh-my-zsh"
-alias work="cd ~/Documents/projects"
-alias a="atom ."
 alias v="nvim ."
+alias zshconfig="v ~/.zshrc"
+alias updatezsh="source ~/.zshrc"
+alias vimconfig="v ~/.vimrc"
+alias ohmyzsh="v ~/.oh-my-zsh"
+alias work="cd $WORKDIR"
+alias a="code ."
 alias cn="ping 8.8.8.8"
 
 export NVM_DIR="/Users/ramadimasatria/.nvm"
