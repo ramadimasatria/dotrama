@@ -1,0 +1,8 @@
+{
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": ["i", "i"],
+            "after": ["<Esc>"]
+        }
+    ]
+}
