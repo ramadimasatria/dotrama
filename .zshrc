@@ -2,7 +2,7 @@ export ZSH="/Users/$(whoami)/.oh-my-zsh"
 export WORKDIR="~/Documents/code"
 
 ZSH_THEME="arrow"
-plugins=(git npm osx)
+plugins=(git npm macos)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -14,6 +14,7 @@ alias ohmyzsh="v ~/.oh-my-zsh"
 alias work="cd $WORKDIR"
 alias a="code ."
 alias cn="ping 8.8.8.8"
+alias gcm="git commit --message"
 
 export NVM_DIR="/Users/$(whoami)/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
